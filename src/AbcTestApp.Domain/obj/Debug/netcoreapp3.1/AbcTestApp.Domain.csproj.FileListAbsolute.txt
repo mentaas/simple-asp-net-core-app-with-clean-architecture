@@ -1,0 +1,12 @@
+E:\MyProjects\AbcTestApp\AbcTestApp.Domain\bin\Debug\netcoreapp3.1\AbcTestApp.Domain.deps.json
+E:\MyProjects\AbcTestApp\AbcTestApp.Domain\bin\Debug\netcoreapp3.1\AbcTestApp.Domain.runtimeconfig.json
+E:\MyProjects\AbcTestApp\AbcTestApp.Domain\bin\Debug\netcoreapp3.1\AbcTestApp.Domain.runtimeconfig.dev.json
+E:\MyProjects\AbcTestApp\AbcTestApp.Domain\bin\Debug\netcoreapp3.1\AbcTestApp.Domain.dll
+E:\MyProjects\AbcTestApp\AbcTestApp.Domain\bin\Debug\netcoreapp3.1\AbcTestApp.Domain.pdb
+E:\MyProjects\AbcTestApp\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Domain.AssemblyInfoInputs.cache
+E:\MyProjects\AbcTestApp\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Domain.AssemblyInfo.cs
+E:\MyProjects\AbcTestApp\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Domain.csproj.CoreCompileInputs.cache
+E:\MyProjects\AbcTestApp\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Domain.dll
+E:\MyProjects\AbcTestApp\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Domain.pdb
+E:\MyProjects\AbcTestApp\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Domain.genruntimeconfig.cache
+E:\MyProjects\AbcTestApp\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Domain.csprojAssemblyReference.cache

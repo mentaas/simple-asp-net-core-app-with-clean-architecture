@@ -1,0 +1,9 @@
+E:\MyProjects\AbcTestApp\AbcTestApp.SharedModel\bin\Debug\netcoreapp3.1\AbcTestApp.SharedModel.deps.json
+E:\MyProjects\AbcTestApp\AbcTestApp.SharedModel\bin\Debug\netcoreapp3.1\AbcTestApp.SharedModel.dll
+E:\MyProjects\AbcTestApp\AbcTestApp.SharedModel\bin\Debug\netcoreapp3.1\AbcTestApp.SharedModel.pdb
+E:\MyProjects\AbcTestApp\AbcTestApp.SharedModel\obj\Debug\netcoreapp3.1\AbcTestApp.SharedModel.AssemblyInfoInputs.cache
+E:\MyProjects\AbcTestApp\AbcTestApp.SharedModel\obj\Debug\netcoreapp3.1\AbcTestApp.SharedModel.AssemblyInfo.cs
+E:\MyProjects\AbcTestApp\AbcTestApp.SharedModel\obj\Debug\netcoreapp3.1\AbcTestApp.SharedModel.csproj.CoreCompileInputs.cache
+E:\MyProjects\AbcTestApp\AbcTestApp.SharedModel\obj\Debug\netcoreapp3.1\AbcTestApp.SharedModel.dll
+E:\MyProjects\AbcTestApp\AbcTestApp.SharedModel\obj\Debug\netcoreapp3.1\AbcTestApp.SharedModel.pdb
+E:\MyProjects\AbcTestApp\AbcTestApp.SharedModel\obj\Debug\netcoreapp3.1\AbcTestApp.SharedModel.csprojAssemblyReference.cache
