@@ -1,1 +1,2 @@
-# simple-asp-net-core-app-with-clean-architecture
+# poor readme.md
+will update later
