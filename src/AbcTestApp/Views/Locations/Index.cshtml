@@ -1,0 +1,73 @@
+﻿@using AbcTestApp.SharedModel.Locations
+@model IEnumerable<LocationModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="mt-4">Locations</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item active">Locations</li>
+</ol>
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table mr-1"></i>
+        Locations Table
+        <span class="float-right"><a asp-controller="locations" asp-action="create" class="btn btn-info">New</a></span>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>Longitude</th>
+                        <th>Latitude</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>Longitude</th>
+                        <th>Latitude</th>
+                        <th>Action</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @if (Model.Any())
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td><a href="@Url.Action("Details", "Locations", new { Id = item.Id})">@item.Name</a></td>
+                                <td>@item.Address</td>
+                                <td>@item.City</td>
+                                <td>@item.Longitude</td>
+                                <td>@item.Latitude</td>
+                                <td><a href="javascript:void(0)" onclick="deleteFunction('@item.Id')" class="btn-link">Delete</a></td>
+                            </tr>
+                        }
+
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section scripts{ 
+    <script>
+        function deleteFunction(id) {
+            debugger;
+            var r = confirm("Are you sure?");
+            if (r == true) {
+                window.location.href = "/locations/delete/" + id;
+            }
+        }
+    </script>
+}

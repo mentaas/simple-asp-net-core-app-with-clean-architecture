@@ -15,8 +15,10 @@ namespace AbcTestApp.Infrastructure.IoC
         {
             //AbcTestApp.Application
             services.AddScoped<IAdministrationService, AdministrationService>();
+            services.AddScoped<ILocationService, LocationService>();
+            services.AddScoped<ICityService, CityService>();
 
-            //AbcTestApp.Domain.Interfaces | AbcTestApp.Infra.Data.Repositories
+            //AbcTestApp.Domain.Interfaces | AbcTestApp.Infrastructure.Data.Repositories
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped<ILocationRepository, LocationRespository>();
             services.AddScoped<ICityRepository, CityRepository>();

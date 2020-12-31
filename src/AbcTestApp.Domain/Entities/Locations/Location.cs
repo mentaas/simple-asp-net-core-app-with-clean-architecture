@@ -20,6 +20,9 @@ namespace AbcTestApp.Domain.Entities.Locations
         public int CityId { get; set; }
         public virtual City City { get; set; }
 
+        public double Longitude { get; set; }
+        public double Latitude { get; set; }
+
         public bool IsDeleted { get; set; }
 
         [MaxLength(150)]

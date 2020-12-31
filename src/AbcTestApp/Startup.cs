@@ -1,3 +1,4 @@
+using AbcTestApp.Application.Profiles;
 using AbcTestApp.Infrastructure.Data.Context;
 using AbcTestApp.Infrastructure.Data.Identity;
 using AbcTestApp.Infrastructure.IoC;
@@ -56,7 +57,14 @@ namespace AbcTestApp
                 options.DefaultSignInScheme = IdentityConstants.ExternalScheme;
             });
 
-            services.AddAutoMapper(typeof(Startup));
+            // Auto Mapper Configurations
+            var mapperConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MappingProfile());
+            });
+
+            IMapper mapper = mapperConfig.CreateMapper();
+            services.AddSingleton(mapper);
 
             services.AddMvc(config =>
             {

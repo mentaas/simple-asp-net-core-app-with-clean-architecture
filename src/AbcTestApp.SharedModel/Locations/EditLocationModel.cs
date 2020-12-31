@@ -1,4 +1,5 @@
 ﻿using AbcTestApp.SharedModel.Cities;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -15,9 +16,12 @@ namespace AbcTestApp.SharedModel.Locations
         [Required]
         [MaxLength(50)]
         public string Address { get; set; }
-        public int CityId { get; set; }
-        public IEnumerable<CityModel> Cities { get; set; }
-        public double Longitude { get; set; }
-        public double Latitude { get; set; }
+        [Required]
+        public int? CityId { get; set; }
+        public IEnumerable<SelectListItem> Cities { get; set; }
+        [Required]
+        public double? Longitude { get; set; }
+        [Required]
+        public double? Latitude { get; set; }
     }
 }

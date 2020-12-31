@@ -1,0 +1,69 @@
+﻿@using AbcTestApp.SharedModel.Locations
+@model NewLocationModel
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="mt-4">New Location</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item">Locations</li>
+    <li class="breadcrumb-item active">Create</li>
+</ol>
+<div class="row">
+    <div class="col-xl-12">
+        <div class="card mb-4">
+            <div class="card-header">
+                <i class="fas fa-map-pin mr-1"></i>
+                Add New Location
+            </div>
+            <div class="card-body">
+                <form asp-controller="locations" asp-action="create" method="post">
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="small mb-1" asp-for="Name">Name</label>
+                                <input class="form-control py-4" asp-for="Name" type="text" placeholder="Enter name" />
+                                <span class="text-danger" asp-validation-for="Name"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="small mb-1" asp-for="CityId">City</label>
+                                <select class="form-control" asp-for="CityId"
+                                        asp-items="@Model.Cities">
+                                    <option>Please select one</option>
+                                </select>
+                                <span class="text-danger" asp-validation-for="CityId"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="small mb-1" asp-for="Address">Address</label>
+                        <input class="form-control py-4" asp-for="Address" type="text" placeholder="Enter address" />
+                        <span class="text-danger" asp-validation-for="Address"></span>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="small mb-1" asp-for="Longitude">Longitude</label>
+                                <input class="form-control py-4" asp-for="Longitude" type="text" placeholder="Enter longitude" />
+                                <span class="text-danger" asp-validation-for="Longitude"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="small mb-1" asp-for="Latitude">Latitude</label>
+                                <input class="form-control py-4" asp-for="Latitude" type="text" placeholder="Enter Lltitude" />
+                                <span class="text-danger" asp-validation-for="Latitude"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4 mb-0"><a asp-controller="locations" asp-action="index" class="btn btn-secondary btn-block">Cancel</a></div>
+                    <div class="mt-4 mb-0"><input type="submit" class="btn btn-primary btn-block" value="Save" /></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

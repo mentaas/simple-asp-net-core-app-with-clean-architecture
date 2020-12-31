@@ -17,12 +17,14 @@ namespace AbcTestApp.Application.Extensions
 
         public static void Update(ref T entity)
         {
+            entity.UpdatedBy = ClaimsPrincipalExtensions.GetLoggedInUserName(ClaimsPrincipal.Current) ?? "publicUser";
             entity.UpdatedOn = DateTime.Now;
         }
 
         public static void Delete(ref T entity)
         {
             entity.IsDeleted = true;
+            entity.DeletedBy = ClaimsPrincipalExtensions.GetLoggedInUserName(ClaimsPrincipal.Current) ?? "publicUser";
             entity.DeletedOn = DateTime.Now;
         }
     }

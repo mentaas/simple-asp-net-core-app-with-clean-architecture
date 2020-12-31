@@ -22,6 +22,7 @@ namespace AbcTestApp.Infrastructure.Data.Repositories
 
         public void Delete(Location location)
         {
+            location.IsDeleted = true;
             _repository.Update(location);
         }
 

@@ -185,6 +185,12 @@ namespace AbcTestApp.Infrastructure.Data.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
+                    b.Property<double>("Latitude")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Longitude")
+                        .HasColumnType("float");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(20)
@@ -300,8 +306,8 @@ namespace AbcTestApp.Infrastructure.Data.Migrations
                         {
                             Id = "6B6867B8-3173-4AA8-A4F0-07D2DD931825",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a013ae94-4754-4998-9dd1-b592f647cbe7",
-                            CreatedOn = new DateTime(2020, 12, 31, 2, 47, 29, 259, DateTimeKind.Local).AddTicks(8752),
+                            ConcurrencyStamp = "1a6cd3e5-0e4e-467d-a13d-71bd106f5929",
+                            CreatedOn = new DateTime(2020, 12, 31, 5, 45, 27, 542, DateTimeKind.Local).AddTicks(6703),
                             Email = "Admin@Admin.com",
                             EmailConfirmed = true,
                             IsDeleted = false,
@@ -310,7 +316,7 @@ namespace AbcTestApp.Infrastructure.Data.Migrations
                             Name = "Master",
                             NormalizedEmail = "ADMIN@ADMIN.COM",
                             NormalizedUserName = "MASTERADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEIHkByksBIZk5MXgO3BW21gYB0b+oDyDQmYoTxN5N43jJnXdPsPKrBrppx1Nhs/HaQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEK+rUp2RawB2uaI6ZWjkONW5tDKO1yxx+qrqeCKp5A7lrmrxGXx5JCTVnG2itUG5GQ==",
                             PhoneNumber = "XXXXXXXXXXXXX",
                             PhoneNumberConfirmed = true,
                             SecurityStamp = "00000000-0000-0000-0000-000000000000",
@@ -349,14 +355,14 @@ namespace AbcTestApp.Infrastructure.Data.Migrations
                         new
                         {
                             Id = "2301D884-221A-4E7D-B509-0113DCC043E1",
-                            ConcurrencyStamp = "5cdd5855-2ae4-4be0-978b-6966dfe2ef90",
+                            ConcurrencyStamp = "ebb699f0-abe9-43ec-a761-73b719229e88",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
                         },
                         new
                         {
                             Id = "7D9B7113-A8F8-4035-99A7-A20DD400F6A3",
-                            ConcurrencyStamp = "ca49c235-d8fc-4a96-8604-d02c7fbb79aa",
+                            ConcurrencyStamp = "fea053e9-66fa-4593-9e16-38eac52f0a5d",
                             Name = "Moderator",
                             NormalizedName = "MODERATOR"
                         });
