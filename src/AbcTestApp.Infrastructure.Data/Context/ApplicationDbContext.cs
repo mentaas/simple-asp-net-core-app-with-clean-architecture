@@ -8,6 +8,8 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 using Microsoft.Extensions.Configuration;
+using AbcTestApp.Domain.Entities.Cities;
+using AbcTestApp.Domain.Entities.Locations;
 
 namespace AbcTestApp.Infrastructure.Data.Context
 {
@@ -26,6 +28,9 @@ namespace AbcTestApp.Infrastructure.Data.Context
                 optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=aspnet-AbcTestApp;Trusted_Connection=True;MultipleActiveResultSets=true");
         }
 
+        public DbSet<City> Cities { get; set; }
+        public DbSet<Location> Locations { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -33,6 +38,7 @@ namespace AbcTestApp.Infrastructure.Data.Context
             modelBuilder.ApplyConfiguration(new RoleConfiguration());
             modelBuilder.ApplyConfiguration(new AdminConfiguration());
             modelBuilder.ApplyConfiguration(new UsersWithRolesConfig());
+            modelBuilder.ApplyConfiguration(new CityConfiguration());
 
         }
     }

@@ -10,3 +10,15 @@ E:\MyProjects\AbcTestApp\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Do
 E:\MyProjects\AbcTestApp\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Domain.pdb
 E:\MyProjects\AbcTestApp\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Domain.genruntimeconfig.cache
 E:\MyProjects\AbcTestApp\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Domain.csprojAssemblyReference.cache
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.Domain\bin\Debug\netcoreapp3.1\AbcTestApp.Domain.deps.json
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.Domain\bin\Debug\netcoreapp3.1\AbcTestApp.Domain.runtimeconfig.json
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.Domain\bin\Debug\netcoreapp3.1\AbcTestApp.Domain.runtimeconfig.dev.json
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.Domain\bin\Debug\netcoreapp3.1\AbcTestApp.Domain.dll
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.Domain\bin\Debug\netcoreapp3.1\AbcTestApp.Domain.pdb
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Domain.csprojAssemblyReference.cache
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Domain.AssemblyInfoInputs.cache
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Domain.AssemblyInfo.cs
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Domain.dll
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Domain.pdb
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.Domain\obj\Debug\netcoreapp3.1\AbcTestApp.Domain.genruntimeconfig.cache

@@ -1,5 +1,7 @@
 ﻿using AbcTestApp.Application.Interfaces;
 using AbcTestApp.Application.Services;
+using AbcTestApp.Domain.Interfaces;
+using AbcTestApp.Infrastructure.Data.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -15,7 +17,9 @@ namespace AbcTestApp.Infrastructure.IoC
             services.AddScoped<IAdministrationService, AdministrationService>();
 
             //AbcTestApp.Domain.Interfaces | AbcTestApp.Infra.Data.Repositories
-            //services.AddScoped<IBookRepository, BookRepository>();
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped<ILocationRepository, LocationRespository>();
+            services.AddScoped<ICityRepository, CityRepository>();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using AbcTestApp.Domain.Kernel;
+﻿using AbcTestApp.Domain.Entities.Locations;
+using AbcTestApp.Domain.Kernel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -12,6 +13,8 @@ namespace AbcTestApp.Domain.Entities.Cities
         [MaxLength(50)]
         public string Name { get; set; }
 
+        public virtual ICollection<Location> Locations { get; set; }
+
         public bool IsDeleted { get; set; }
 
         [MaxLength(150)]
@@ -24,7 +27,6 @@ namespace AbcTestApp.Domain.Entities.Cities
 
         public DateTime? UpdatedOn { get; set; }
 
-        [Required]
         [MaxLength(150)]
         public string CreatedBy { get; set; }
 

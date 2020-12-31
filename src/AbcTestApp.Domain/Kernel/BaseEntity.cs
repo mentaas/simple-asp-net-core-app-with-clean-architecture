@@ -6,6 +6,6 @@ namespace AbcTestApp.Domain.Kernel
 {
     public class BaseEntity
     {
-        int Id { get; set; }
+        public int Id { get; set; }
     }
 }

@@ -7,3 +7,12 @@ E:\MyProjects\AbcTestApp\AbcTestApp.SharedModel\obj\Debug\netcoreapp3.1\AbcTestA
 E:\MyProjects\AbcTestApp\AbcTestApp.SharedModel\obj\Debug\netcoreapp3.1\AbcTestApp.SharedModel.dll
 E:\MyProjects\AbcTestApp\AbcTestApp.SharedModel\obj\Debug\netcoreapp3.1\AbcTestApp.SharedModel.pdb
 E:\MyProjects\AbcTestApp\AbcTestApp.SharedModel\obj\Debug\netcoreapp3.1\AbcTestApp.SharedModel.csprojAssemblyReference.cache
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.SharedModel\bin\Debug\netcoreapp3.1\AbcTestApp.SharedModel.deps.json
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.SharedModel\bin\Debug\netcoreapp3.1\AbcTestApp.SharedModel.dll
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.SharedModel\bin\Debug\netcoreapp3.1\AbcTestApp.SharedModel.pdb
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.SharedModel\obj\Debug\netcoreapp3.1\AbcTestApp.SharedModel.csprojAssemblyReference.cache
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.SharedModel\obj\Debug\netcoreapp3.1\AbcTestApp.SharedModel.AssemblyInfoInputs.cache
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.SharedModel\obj\Debug\netcoreapp3.1\AbcTestApp.SharedModel.AssemblyInfo.cs
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.SharedModel\obj\Debug\netcoreapp3.1\AbcTestApp.SharedModel.csproj.CoreCompileInputs.cache
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.SharedModel\obj\Debug\netcoreapp3.1\AbcTestApp.SharedModel.dll
+C:\Users\m_shy\source\repos\mentaas\simple-asp-net-core-app-with-clean-architecture\src\AbcTestApp.SharedModel\obj\Debug\netcoreapp3.1\AbcTestApp.SharedModel.pdb
